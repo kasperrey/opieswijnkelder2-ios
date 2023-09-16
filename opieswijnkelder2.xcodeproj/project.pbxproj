@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C2EA4AC28BE677500376B4B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2EA4AB28BE677500376B4B /* TableViewController.swift */; };
 		6C94868828BE1E0B006CED2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C94868728BE1E0B006CED2C /* AppDelegate.swift */; };
 		6C94868A28BE1E0B006CED2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C94868928BE1E0B006CED2C /* SceneDelegate.swift */; };
 		6C94868C28BE1E0B006CED2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C94868B28BE1E0B006CED2C /* ViewController.swift */; };
@@ -14,9 +15,11 @@
 		6C94869228BE1E0B006CED2C /* opieswijnkelder2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C94869028BE1E0B006CED2C /* opieswijnkelder2.xcdatamodeld */; };
 		6C94869428BE1E0C006CED2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C94869328BE1E0C006CED2C /* Assets.xcassets */; };
 		6C94869728BE1E0C006CED2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C94869528BE1E0C006CED2C /* LaunchScreen.storyboard */; };
+		6CE3582428BE29F400BB9FC9 /* biertjes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE3582328BE29F400BB9FC9 /* biertjes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C2EA4AB28BE677500376B4B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		6C94868428BE1E0B006CED2C /* opieswijnkelder2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = opieswijnkelder2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C94868728BE1E0B006CED2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C94868928BE1E0B006CED2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		6C94869328BE1E0C006CED2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C94869628BE1E0C006CED2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C94869828BE1E0C006CED2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE3582328BE29F400BB9FC9 /* biertjes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biertjes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				6C94869528BE1E0C006CED2C /* LaunchScreen.storyboard */,
 				6C94869828BE1E0C006CED2C /* Info.plist */,
 				6C94869028BE1E0B006CED2C /* opieswijnkelder2.xcdatamodeld */,
+				6CE3582328BE29F400BB9FC9 /* biertjes.swift */,
+				6C2EA4AB28BE677500376B4B /* TableViewController.swift */,
 			);
 			path = opieswijnkelder2;
 			sourceTree = "<group>";
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C94868C28BE1E0B006CED2C /* ViewController.swift in Sources */,
+				6C2EA4AC28BE677500376B4B /* TableViewController.swift in Sources */,
 				6C94868828BE1E0B006CED2C /* AppDelegate.swift in Sources */,
 				6C94869228BE1E0B006CED2C /* opieswijnkelder2.xcdatamodeld in Sources */,
 				6C94868A28BE1E0B006CED2C /* SceneDelegate.swift in Sources */,
+				6CE3582428BE29F400BB9FC9 /* biertjes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
